@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="Stylesheet" href="styles.css" />
+    <style>
+      #my-styles3 {
+        letter-spacing: 5px;
+      }
+
+      #my-styles5 {
+        letter-spacing: 5px;
+      }
+    </style>
   </head>
   <body>
     <h1>This is Our First Css Assignment</h1>
@@ -19,11 +28,30 @@
       </li>
       <li>
         <span id="my-styles1">Css is not neccsary</span>
-        <span id="my-styles2">
-          CSS Saves lot of Work.It can control th layout of multipe web pages at
-          all onece
-        </span>
+        <span id="my-styles2"> CSS Saves lot of Work</span>.It can control the
+        layout of multipe web pages atall onece
+      </li>
+      <li>
+        <span style="font-style: italic; text-decoration: underline">
+          External Style Sheeet are stored in css file</span
+        >
       </li>
     </ol>
+    <h2>CSS can be added in HTML document in 3 Ways</h2>
+    <ul>
+      <li style="letter-spacing: 5px">
+        Inline - by using a style attribute inside HTML elements
+      </li>
+      <li id="my-styles3">
+        Internal- by using a style attribute in head section
+      </li>
+      <li id="my-styles4">
+        External- by using a link element to link external CSS file
+      </li>
+      <li id="my-styles5">
+        The most common way to add CSS, is to keep the styles in External css
+        files
+      </li>
+    </ul>
   </body>
 </html>
